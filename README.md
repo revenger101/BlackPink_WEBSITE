@@ -28,3 +28,24 @@ This backend implements a **Django** service that:
 
 ```plaintext
 Client <--GraphQL API--> Django Backend <--gRPC--> External Backend
+
+✨ Features
+✅ GraphQL API for precise and optimized data fetching.
+
+✅ High-speed inter-service communication with gRPC.
+
+✅ Built-in support for scalability (horizontal scaling).
+
+✅ Focus on microservice best practices.
+
+✅ Security patterns for production environments (authentication, rate limiting, etc.).
+
+
+📦 Getting Started
+Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/revenger101/BlackPink_WEBSITE.git
+cd store_backend
+
