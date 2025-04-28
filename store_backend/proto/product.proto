@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package product;
+
+option go_package = "pb/product";
+option java_package = "com.store.product";
+option java_multiple_files = true;
+
+service ProductService {
+  rpc CreateProduct (ProductRequest) returns (ProductResponse);
+  rpc GetProduct (GetProductRequest) returns (ProductResponse);
+  rpc UpdateProduct (ProductRequest) returns (ProductResponse);
+  rpc DeleteProduct (GetProductRequest) returns (DeleteResponse);
+}
+
+message ProductRequest {
+  int32 id = 1;
+  string name = 2;
+  string description = 3;
+  double price = 4;
+  int32 stock = 5;
+}
+
+message ProductResponse {
+  int32 id = 1;
+  string name = 2;
+  string description = 3;
+  double price = 4;
+  int32 stock = 5;
+  string message = 6;
+}
+
+message GetProductRequest {
+  int32 id = 1;
+}
+
+message DeleteResponse {
+  string message = 1;
+}

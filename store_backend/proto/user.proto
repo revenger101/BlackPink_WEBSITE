@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "pb/user";
+option java_package = "com.store.user";
+option java_multiple_files = true;
+
+service UserService {
+  rpc SignUp (SignUpRequest) returns (SignUpResponse);
+  rpc SignIn (SignInRequest) returns (SignInResponse);
+  rpc CreateUser (UserRequest) returns (UserResponse);
+  rpc GetUser (GetUserRequest) returns (UserResponse);
+  rpc UpdateUser (UserRequest) returns (UserResponse);
+  rpc DeleteUser (GetUserRequest) returns (DeleteResponse);
+  rpc CreateProfile (ProfileRequest) returns (ProfileResponse);
+  rpc GetProfile (GetProfileRequest) returns (ProfileResponse);
+  rpc UpdateProfile (ProfileRequest) returns (ProfileResponse);
+  rpc DeleteProfile (GetProfileRequest) returns (DeleteResponse);
+}
+
+message SignUpRequest {
+  string username = 1;
+  string password = 2;
+  string email = 3;
+}
+
+message SignUpResponse {
+  string message = 1;
+  string token = 2;
+}
+
+message SignInRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message SignInResponse {
+  string token = 1;
+  string message = 2;
+}
+
+message UserRequest {
+  int32 id = 1;
+  string username = 2;
+  string password = 3;
+  string email = 4;
+}
+
+message UserResponse {
+  int32 id = 1;
+  string username = 2;
+  string email = 3;
+  string message = 4;
+}
+
+message GetUserRequest {
+  int32 id = 1;
+}
+
+message ProfileRequest {
+  int32 id = 1;
+  int32 user_id = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string address = 5;
+}
+
+message ProfileResponse {
+  int32 id = 1;
+  int32 user_id = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string address = 5;
+  string message = 6;
+}
+
+message GetProfileRequest {
+  int32 user_id = 1;
+}
+
+message DeleteResponse {
+  string message = 1;
+}

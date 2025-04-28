@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package basket;
+
+option go_package = "pb/basket";
+option java_package = "com.store.basket";
+option java_multiple_files = true;
+
+service BasketService {
+  rpc CreateBasket (BasketRequest) returns (BasketResponse);
+  rpc GetBasket (GetBasketRequest) returns (BasketResponse);
+  rpc UpdateBasket (BasketRequest) returns (BasketResponse);
+  rpc DeleteBasket (GetBasketRequest) returns (DeleteResponse);
+}
+
+message BasketItem {
+  int32 product_id = 1;
+  int32 quantity = 2;
+}
+
+message BasketRequest {
+  int32 id = 1;
+  int32 user_id = 2;
+  repeated BasketItem items = 3;
+}
+
+message BasketResponse {
+  int32 id = 1;
+  int32 user_id = 2;
+  repeated BasketItem items = 3;
+  string message = 4;
+}
+
+message GetBasketRequest {
+  int32 user_id = 1;
+}
+
+message DeleteResponse {
+  string message = 1;
+}
