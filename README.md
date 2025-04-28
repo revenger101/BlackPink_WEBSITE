@@ -24,26 +24,34 @@ This backend implements a **Django** service that:
 
 ---
 
-## 🏗️ Architecture
+## 📜 Project Overview
 
-```plaintext
-Client <--GraphQL API--> Django Backend <--gRPC--> External Backend
+This backend implements a **Django** service that:
+- 🚀 Communicates with **another backend** via **gRPC** for ultra-fast, efficient data transmission.
+- 🎯 Exposes a **GraphQL API** to allow dynamic, flexible, and client-specific queries.
+- 🛡️ Focuses on **scalability** and **security** to support evolving microservices architectures.
 
-✨ Features
-✅ GraphQL API for precise and optimized data fetching.
+---
 
-✅ High-speed inter-service communication with gRPC.
+## ✨ Features
 
-✅ Built-in support for scalability (horizontal scaling).
+- ✅ **GraphQL API** for flexible and optimized data retrieval.
+- ✅ **gRPC communication** for rapid, low-latency backend-to-backend interactions.
+- ✅ **Microservices-ready** architecture for scalability and modularity.
+- ✅ **Authentication & Authorization** (planned).
+- ✅ **Docker Support** (optional for easier deployment).
+- ✅ **Production-ready** settings with environment separation.
+- ✅ **Security best practices** for deployment.
 
-✅ Focus on microservice best practices.
+---
 
-✅ Security patterns for production environments (authentication, rate limiting, etc.).
+## 🛠️ Getting Started
 
+### 1. Clone the repository
 
-📦 Getting Started
-Clone the repository
-bash
+```bash
+git clone https://github.com/revenger101/BlackPink_WEBSITE.git
+cd store_backend
 Copy
 Edit
 git clone https://github.com/revenger101/BlackPink_WEBSITE.git
