@@ -1,0 +1,121 @@
+{
+    "members": [
+      {
+        "name": "Jisoo",
+        "role": "Lead Vocalist",
+        "birth_date": "1995-01-03",
+        "nationality": "South Korean"
+      },
+      {
+        "name": "Jennie",
+        "role": "Main Rapper, Vocalist",
+        "birth_date": "1996-01-16",
+        "nationality": "South Korean"
+      },
+      {
+        "name": "Rosé",
+        "role": "Main Vocalist",
+        "birth_date": "1997-02-11",
+        "nationality": "New Zealand (Korean descent)"
+      },
+      {
+        "name": "Lisa",
+        "role": "Main Dancer, Lead Rapper",
+        "birth_date": "1997-03-27",
+        "nationality": "Thai"
+      }
+    ],
+    "events": [
+      {
+        "title": "Debut with Square One",
+        "date": "2016-08-08",
+        "description": "BLACKPINK debuted with their single album Square One, featuring 'Whistle' and 'Boombayah'."
+      },
+      {
+        "title": "Coachella 2019 Performance",
+        "date": "2019-04-12",
+        "description": "First K-pop girl group to perform at Coachella, with shows on April 12 and 19."
+      },
+      {
+        "title": "The Show Livestream Concert",
+        "date": "2021-01-31",
+        "description": "First livestream concert in collaboration with YouTube Music, rescheduled from December 27, 2020, due to COVID-19 regulations."
+      },
+      {
+        "title": "Born Pink World Tour Start",
+        "date": "2022-10-15",
+        "description": "Tour began in Seoul, becoming the highest-grossing tour by a Korean girl group at the time."
+      },
+      {
+        "title": "Coachella 2023 Headline",
+        "date": "2023-04-22",
+        "description": "First Asian act to headline Coachella."
+      },
+      {
+        "title": "2025 World Tour - Inglewood",
+        "date": "2025-07-12",
+        "description": "BLACKPINK 2025 World Tour at SoFi Stadium in Inglewood, CA, with shows on July 12 and 13."
+      },
+      {
+        "title": "2025 World Tour - St Denis",
+        "date": "2025-08-02",
+        "description": "BLACKPINK 2025 World Tour at Stade de France in St Denis, France, with shows on August 2 and 3."
+      }
+    ],
+    "songs": [
+      {
+        "title": "Whistle",
+        "release_date": "2016-08-08",
+        "album": "Square One",
+        "achievements": "Topped the Gaon Digital Chart, sold over 2.5 million digital copies in South Korea."
+      },
+      {
+        "title": "Boombayah",
+        "release_date": "2016-08-08",
+        "album": "Square One",
+        "achievements": "#1 on Billboard World Digital Song Sales chart."
+      },
+      {
+        "title": "Ddu-Du Ddu-Du",
+        "release_date": "2018-06-15",
+        "album": "Square Up",
+        "achievements": "Peaked at #55 on Billboard Hot 100, certified gold in the US."
+      },
+      {
+        "title": "How You Like That",
+        "release_date": "2020-06-26",
+        "album": "The Album",
+        "achievements": "Peaked at #33 on Billboard Hot 100, topped the Gaon Digital Chart."
+      },
+      {
+        "title": "Ice Cream (with Selena Gomez)",
+        "release_date": "2020-08-28",
+        "album": "The Album",
+        "achievements": "Peaked at #13 on Billboard Hot 100, longest-charting song by a female Korean act."
+      },
+      {
+        "title": "Pink Venom",
+        "release_date": "2022-08-19",
+        "album": "Born Pink",
+        "achievements": "#1 on Billboard Global 200 for two weeks, #2 on Circle Digital Chart."
+      },
+      {
+        "title": "Shut Down",
+        "release_date": "2022-09-16",
+        "album": "Born Pink",
+        "achievements": "#1 on Billboard Global 200, #3 on Circle Digital Chart."
+      },
+      {
+        "title": "The Girls",
+        "release_date": "2023-08-01",
+        "album": "Promotional Single",
+        "achievements": "Physical version topped the Circle Album Chart."
+      },
+      {
+        "title": "Kill This Love",
+        "release_date": "2019-04-05",
+        "album": "Kill This Love",
+        "achievements": "Peaked at #41 on Billboard Hot 100, certified platinum in the US."
+      }
+    ]
+  }
